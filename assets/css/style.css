@@ -56,6 +56,15 @@ header a:hover, a:active {
 	font-weight: bold;
 }
 
+.nav-links a{
+	padding: 0px 20px;
+	border-right: 1px solid #ccc;
+}
+
+.nav-links a:last-child {
+	border-right: 0 none;
+}
+
 /*end of header section*/
 
 /*Main content section*/
@@ -336,18 +345,18 @@ footer{
 	.nav-links a{
 		width: 180px;
 		text-align: center;
-		/*border: 1px solid #ccc;*/
+		border-right: 1px solid #ccc;
 		display: inline-block;
 	}
 
-	.nav-links a:after
+	/*.nav-links a:after
 	{
 	  content: '|';
 	}
 	.nav-links a:last-child:after
 	{
 	  content: '';
-	}
+	}*/
 
 	.main-content{
 		width: 600px;
