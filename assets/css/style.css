@@ -225,6 +225,32 @@ footer{
 }
 
 
+/*Animation*/
+
+.header-name {
+    -webkit-animation-name: logo; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: logo;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes logo {
+	0%   {background-color: #486ba8;}
+	25%  {background-color: #7c48a8;}
+	50%  {background-color: #a8489c;}
+	100% {background-color: #4aaaa5;}
+	}
+
+/* Standard syntax */
+@keyframes logo {
+	0%   {background-color: #486ba8;}
+	25%  {background-color: #7c48a8;}
+	50%  {background-color: #a8489c;}
+	100% {background-color: #4aaaa5;}
+}
+
+
 /*--------Media queries----------*/
 /*980px, 768px and 640px.*/
 @media only screen and (max-width: 980px) {
