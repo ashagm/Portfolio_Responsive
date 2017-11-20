@@ -39,6 +39,7 @@ header a:link, a:visited{
 
 header a:hover, a:active {
     color: #4aaaa5;
+	text-transform: uppercase;
 }
 
 .header-name{
