@@ -357,6 +357,7 @@ footer{
 
 	header{
 		width: 100%;
+		position: static;
 	}
 
 	.header-name{
@@ -367,6 +368,7 @@ footer{
 	.nav-links{
 		float: none;
 		padding: 20px;
+		position: static;
 	}
 
 	.nav-links a{
