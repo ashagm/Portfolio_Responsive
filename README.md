@@ -1,2 +1,2 @@
 # Portfolio_Responsive
-Use of Media queries, HTML5, CSS
+Sample Responsive Portfolio page using Media queries, HTML5, CSS3
