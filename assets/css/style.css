@@ -18,9 +18,9 @@ body {
 #wrapper{
 	/*min-height: 100%;*/
 	position: relative;
-	display: flex;  /*for sticky footer use flexbox*/
+	display: flex;  /*for sticky footer trying with flexbox*/
   	min-height: 100vh;
-  	flex-direction: column; /*for sticky footer use flexbox*/
+  	flex-direction: column; /*for sticky footer trying with flexbox*/
 }
 
 /*Header section*/
@@ -75,11 +75,11 @@ header a:hover, a:active {
 	background-size: cover;	
 	width: 100%;
 	/*height: 80vh;*/
-	height: 100%; 
 	/*min-height: 100%;*/
+	height: 100%; 	
 	border-top: 2px solid #ccc;
 	overflow: auto;
-  	flex: 1;
+  	flex: 1; /* trying flex for sticky footer */
 }
 
 .main-content{
@@ -214,9 +214,6 @@ footer{
 	font-size: 12px;
 	color: #ccc;
 	width: 100%;
-	/*position: absolute;*/
-	/*bottom:0;*/
-	/*left:0; */
 }
 
 .clearfix::after {
